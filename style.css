@@ -1,0 +1,65 @@
+html, body { 
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    box-sizing: border-box;
+}
+.fc {
+    background-color: rgb(145, 168, 122);
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 50px;
+    
+}
+.menu-nav {
+    display: flex;
+}
+#imagem_fundo {
+    margin: 0px;
+    background: url(fundo2.jpg);
+    min-height: 100vh;
+    background-size: cover;
+color:  black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+ #titulo
+ { max-width: 500px;
+    font-size: 70px;
+    color: white;
+    text-shadow:  1px 1px black;
+    margin-bottom: 0;
+ }
+ #t2 {
+     max-width: 500px;
+     font-size: 30px;
+     margin-top: 0;
+     border-top: 3px solid white;
+     color: white;
+     text-shadow: 1px 1px black;
+}
+.projeto
+{ display: flex;
+width: 100%;
+padding: 30px 0px 20px 0px;
+background-color: white;
+}
+.video {
+    flex: 50%;
+    padding: 0px 50%;} 
+    
+ .menu1{
+     padding: 50%;
+     
+ }
+#botao {
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
